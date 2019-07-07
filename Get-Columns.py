@@ -72,7 +72,7 @@ _print("\n#             (*) List the columns tables file              #")
 _print("\n#                                                           #")
 _print("\n#############################################################\n\n")
 
-f = open("tables.txt","r")
+f = open("Tables-extracted.txt","r")
 f1 = f.readlines()
 for line in f1:
    columns(line.strip());print('--------------------------')
